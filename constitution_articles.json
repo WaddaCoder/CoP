@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "note": "Session 2 of 7. Strand 1 (Fundamental Rights + Principles of Policy) populated with verified content from the Nov 2025 / 27th Amendment edition in project knowledge. Descriptions are paraphrased, not verbatim (copyright discipline — full text lives in constitution_baretext.json, out of v1 scope). Strands 2-5 remain empty shells for later sessions. Session 6 of 7 added historicalConstitutions (1956, 1962) as structural Exploration entries per the design log's reversal — not essays, not muted reference cards. Each structural card carries a lineageForward note connecting it to the current 1973 text. Governor-General->President and C-in-C->COAS title-change facts (verified in an earlier session) are reflected here with correct attribution.",
+    "note": "Session 2 of 7. Strand 1 (Fundamental Rights + Principles of Policy) populated with verified content from the Nov 2025 / 27th Amendment edition in project knowledge. Descriptions are paraphrased, not verbatim (copyright discipline — full text lives in constitution_baretext.json, out of v1 scope). Strands 2-5 remain empty shells for later sessions. Session 6 of 7 added historicalConstitutions (1956, 1962) as structural Exploration entries per the design log's reversal — not essays, not muted reference cards. Each structural card carries a lineageForward note connecting it to the current 1973 text. Governor-General->President and C-in-C->COAS title-change facts (verified in an earlier session) are reflected here with correct attribution. Strand 2 (State Machinery) built with 15 verified articles — President, Parliament composition, and the Judiciary/Federal Constitutional Court structure under the 27th Amendment, verified directly against the Nov 2025 PDF's actual current text (Articles 175B-175F, confirming old Art.184 is omitted and its jurisdiction moved to the FCC). Federal Government chapter (Arts 90-100, PM/Cabinet) deliberately NOT included this pass — flagged for a follow-up verification pass rather than stated from memory. This is a scoped selection of structurally important articles, not exhaustive coverage of Arts 41-212 the way Strand 1 covered its full chapter range. Strand 4 (Islamic Provisions) built complete — all 5 articles (227-231), fully verified against the PDF. Strand 5 (Emergency/Amendment/Schedule) built PARTIAL — 3 articles (232, 233, 238) verified with confidence; 234-237 (provincial-machinery-failure emergency, financial emergency, revocation, indemnity laws) and 239 (amendment Bill procedure detail) deliberately left for a follow-up pass rather than stated from incomplete verification. Strand 3 (Federalism, ~40+ articles spanning Arts 101-159) NOT started this pass — flagged as needing its own dedicated session given its size, same restraint discipline as every other choice this build has made. Strand 3 (Federalism) built with 9 verified articles — Governor/Provincial Government structure and, most importantly, Articles 141-144: the actual textual mechanism of the 18th Amendment's Concurrent List abolition, verified directly against the PDF (confirmed: 'Concurrent legislative list and the entries 1 to 47 omitted' in the Fourth Schedule). This directly grounds the already-written 18th Amendment essay in real article text rather than narrative summary. NOT included this pass: Council of Common Interests (Art.153), NFC (Art.160), and the full Provincial Assembly procedural chapter (Arts.106-127) — index-only, not verified with full text, left for a follow-up pass rather than guessed. Follow-up pass added 5 verified Federal Government articles (90-92, 95, 97) to Strand 2 — PM election mechanism, Cabinet size cap (11% of Parliament, 18th Amdt), and the actual no-confidence procedure (20% threshold, 3-7 day window) behind real events like the April 2022 vote against Imran Khan's government. State Machinery strand now at 21 articles. Follow-up pass added Council of Common Interests (153, 154) and National Finance Commission (160) to Federalism strand — verified complete text, including the NFC's 'ratchet' safeguard (Art.160(3A)) that grounds the 18th Amendment essay's 47.5%->57.5% claim in actual constitutional text rather than the essay's own narrative summary. Federalism strand now at 12 articles. Follow-up pass completed Strand 5 (Emergency/Amendment) — added 234, 235, 236, 237, 239, all fully verified. Article 239 is a genuinely important find: the 27th Amendment (2025) added clause (5), explicitly barring any court from ever questioning a constitutional amendment on any ground — making Pakistan's amendment power textually unlimited, unlike India's judicially-created 'basic structure doctrine' limit. Strand 5 now complete at 8 articles (232, 233, 234, 235, 236, 237, 238, 239). Cross-reference and lineage-trail expansion pass: added cross-refs to Art.227 (S.295-C PPC), Art.58 (historical 58(2)(b) dismissal-power history), Art.233 (verified real invocations in 1973/1974/1998, sourced from the Constitution's own footnoted record). Built 3 new full lineage trails beyond Article 9: Art.95 (no-confidence, tracing the 58(2)(b) detour and the 2022 Imran Khan vote), Art.175 (the full SC-to-FCC restructuring arc across the 18th/26th/27th Amendments), and Art.239 (the amendment procedure's own evolution, ending on the 27th Amendment's no-judicial-review clause). Trails now exist on 4 articles total (9, 95, 175, 239), not just the single worked example from Session 2.",
     "schema": "Each article: {num, title, justiciable(bool), description, crossRefs:[{code,note}], lineage:[{label,detail}]}",
     "crossRefCaveat": "Cross-references are seeded conservatively this pass — only pairings with clear, well-established doctrinal grounding are included. This list is a starting set, not exhaustive; expanding it further is real verification work for a later pass, not guessed.",
     "predecessorCaveat": "Predecessor-constitution mapping (1956/1962 lineage) is NOT included in this pass. Per the design log's own caveat, promising accurate article-by-article mapping across three constitutions without dedicated verification work is a real accuracy risk — deferred rather than guessed."
@@ -330,28 +330,473 @@
       "label": "Strand 2",
       "name": "State Machinery",
       "description": "Federal legislature, executive, judiciary (incl. Federal Constitutional Court, 27th Amendment).",
-      "articles": []
+      "articles": [
+        {
+          "num": "41",
+          "title": "The President",
+          "justiciable": true,
+          "description": "There shall be a President of Pakistan, Head of State, representing the unity of the Republic — must be a Muslim, 45+, qualified for National Assembly membership. Elected by an electoral college of both Houses of Parliament plus the Provincial Assemblies, not by direct popular vote. The validity of a presidential election cannot be questioned in any court.",
+          "crossRefs": []
+        },
+        {
+          "num": "44",
+          "title": "Term of office of President",
+          "justiciable": true,
+          "description": "Five-year term, eligible for re-election but capped at two consecutive terms. Continues in office until a successor is sworn in even after the term expires — no gap in headship of state.",
+          "crossRefs": []
+        },
+        {
+          "num": "45",
+          "title": "President's power to grant pardon",
+          "justiciable": true,
+          "description": "The President may grant pardon, reprieve, and respite, and remit, suspend, or commute any sentence passed by any court or tribunal.",
+          "crossRefs": []
+        },
+        {
+          "num": "47",
+          "title": "Removal or impeachment of President",
+          "justiciable": true,
+          "description": "The President may be removed for physical/mental incapacity or impeached for violating the Constitution or gross misconduct. Requires a notice signed by half the total membership of either House, a joint sitting within 7-14 days, and a two-thirds vote of total Parliament membership to actually remove.",
+          "crossRefs": []
+        },
+        {
+          "num": "48",
+          "title": "President to act on advice",
+          "justiciable": true,
+          "description": "The President acts on and in accordance with Cabinet or Prime Ministerial advice — may ask for reconsideration once, but must act on the advice given after reconsideration. Acts in personal discretion only where the Constitution explicitly empowers it, and that discretionary use cannot be questioned on any ground. What advice was actually given cannot be inquired into by any court.",
+          "crossRefs": [
+            {
+              "code": "Art. 58",
+              "note": "the discretionary National Assembly dissolution power sits inside this framework"
+            }
+          ]
+        },
+        {
+          "num": "50",
+          "title": "Majlis-e-Shoora (Parliament)",
+          "justiciable": true,
+          "description": "Parliament consists of the President and two Houses — the National Assembly and the Senate. Establishes the bicameral structure that distinguishes 1973 from both 1956 and 1962 (see the historical Exploration entries).",
+          "crossRefs": []
+        },
+        {
+          "num": "58",
+          "title": "Dissolution of the National Assembly",
+          "justiciable": true,
+          "description": "The President dissolves the National Assembly if advised by the Prime Minister — dissolution follows automatically 48 hours after such advice. A narrow discretionary dissolution power also exists where a no-confidence vote has passed and no member commands majority confidence. A caretaker Cabinet is appointed and a general election held within 90 days.",
+          "crossRefs": [
+            {
+              "code": "old Art. 58(2)(b)",
+              "note": "the President's unilateral dissolution power — inserted by the 8th Amdt (1985), used to dismiss 4 governments 1988-96, finally repealed by the 18th Amdt (2010). Current Art.58 shown here is the post-2010 text."
+            }
+          ]
+        },
+        {
+          "num": "59",
+          "title": "The Senate",
+          "justiciable": true,
+          "description": "96 members: 14 elected by each Provincial Assembly, plus seats for the Federal Capital, women, technocrats (including ulema) elected by each Provincial Assembly. Senate seats are explicitly NOT population-proportional — this is the direct institutional answer to smaller provinces' fear of Punjab dominating a single house (see the 18th Amendment/Federalism essay and the 1956/1962 historical comparison).",
+          "crossRefs": []
+        },
+        {
+          "num": "63A",
+          "title": "Disqualification on grounds of defection",
+          "justiciable": true,
+          "description": "A member who defects — votes against party lines on a no-confidence motion, money bill, or constitutional amendment, or resigns/joins another party — can be declared to have vacated their seat by the party head, subject to Election Commission and court review. The anti-defection clause, aimed at preventing horse-trading in no-confidence votes.",
+          "crossRefs": []
+        },
+        {
+          "num": "175",
+          "title": "Establishment and jurisdiction of courts",
+          "justiciable": true,
+          "description": "As amended by the 27th Amendment (2025): there shall be a Federal Constitutional Court, a Supreme Court, a High Court for each Province and for Islamabad, and such other courts as law establishes. No court has jurisdiction except what the Constitution or law confers. The Judiciary is to be progressively separated from the Executive.",
+          "crossRefs": [],
+          "lineage": [
+            {
+              "label": "1973 original text",
+              "detail": "Established a Supreme Court and High Courts only — a single apex court structure."
+            },
+            {
+              "label": "18th Amendment, 2010",
+              "detail": "Article 175A inserted — created the Judicial Commission of Pakistan for judicial appointments, moving the process away from unilateral executive discretion."
+            },
+            {
+              "label": "26th Amendment, 2024",
+              "detail": "175A restructured — JCP composition changed to include more parliamentary and executive representation, reducing the judiciary's own majority within its appointing body."
+            },
+            {
+              "label": "27th Amendment, 2025",
+              "detail": "New Chapter 1A (Articles 175B-175L) inserted — creates the Federal Constitutional Court as a wholly separate apex body. Old Article 184 (Supreme Court's fundamental-rights original jurisdiction) formally omitted; that power moves to the FCC via new Article 175E. The Supreme Court's role narrows to ordinary appellate work under Article 185."
+            }
+          ]
+        },
+        {
+          "num": "175A",
+          "title": "Appointment of Judges",
+          "justiciable": true,
+          "description": "Governs appointment of judges to the Federal Constitutional Court, Supreme Court, High Courts, and Federal Shariat Court, via the Judicial Commission of Pakistan — the mechanism created by the 18th Amendment (2010) and substantially restructured by the 26th (2024) and 27th (2025) Amendments to reduce the judiciary's own majority within the appointing body. See the Judicial Review Turtles essay for the doctrinal history this sits inside.",
+          "crossRefs": []
+        },
+        {
+          "num": "175B",
+          "title": "Constitution of Federal Constitutional Court",
+          "justiciable": true,
+          "description": "New Chapter 1A, inserted by the 27th Amendment (2025). The Federal Constitutional Court must have an equal number of judges from each Province and at least one from the Islamabad High Court, with that Islamabad-seat number never exceeding any single province's.",
+          "crossRefs": []
+        },
+        {
+          "num": "175C",
+          "title": "Appointment of Federal Constitutional Court Judges",
+          "justiciable": true,
+          "description": "Judges must be citizens of Pakistan who are or have been a Supreme Court judge, or have served 5+ years as a High Court judge, or 20+ years as a High Court advocate who is also a Supreme Court advocate.",
+          "crossRefs": []
+        },
+        {
+          "num": "175E",
+          "title": "Original jurisdiction of Federal Constitutional Court",
+          "justiciable": true,
+          "description": "The FCC has EXCLUSIVE original jurisdiction over disputes between two or more governments (Federal or Provincial) — declaratory judgments only. Critically, it also now holds the fundamental-rights public-importance jurisdiction that Article 184(3) gave the Supreme Court before the 27th Amendment — that old Article 184 is now formally omitted. All pending cases under the old provision were transferred to the FCC automatically on the Amendment's commencement. This is the article that resolves the 'Writ Jurisdiction Reference' open item flagged earlier in this project — the FCC, not the Supreme Court, is now the body to reference for constitutional/fundamental-rights writ jurisdiction.",
+          "crossRefs": [
+            {
+              "code": "old Art. 184(3)",
+              "note": "now omitted — jurisdiction moved to FCC"
+            }
+          ]
+        },
+        {
+          "num": "175F",
+          "title": "Appellate jurisdiction of the Federal Constitutional Court",
+          "justiciable": true,
+          "description": "The FCC hears appeals from High Court judgments where an Act of Parliament so provides, where the High Court certifies a substantial constitutional-interpretation question, or (with the FCC's leave) from a High Court's Article 199 writ order — with rent/family-matter exceptions.",
+          "crossRefs": []
+        },
+        {
+          "num": "185",
+          "title": "Appellate jurisdiction of the Supreme Court",
+          "justiciable": true,
+          "description": "Post-27th Amendment, this is where the Supreme Court's remaining role actually sits: ordinary civil and criminal appeals from High Courts — death-sentence reversals on appeal, contempt punishments, and disputes above a set monetary threshold. Old Articles 184 (original jurisdiction) and 186/186A (advisory jurisdiction, case-transfer power) are now omitted — this is the textual confirmation of the Supreme Court's narrowed role discussed in the Judicial Review essay.",
+          "crossRefs": []
+        },
+        {
+          "num": "90",
+          "title": "The Federal Government",
+          "justiciable": true,
+          "description": "Federal executive authority is exercised in the President's name by the Federal Government — the Prime Minister and Federal Ministers — acting through the Prime Minister, who is the Federation's chief executive. This is the article that actually locates real executive power: the President reigns in name (Art. 99), the Prime Minister governs.",
+          "crossRefs": []
+        },
+        {
+          "num": "91",
+          "title": "The Cabinet",
+          "justiciable": true,
+          "description": "The National Assembly, after electing its Speaker and Deputy Speaker, must — to the exclusion of all other business — elect one of its Muslim members as Prime Minister by majority of total membership (a runoff between the top two if no majority emerges on the first poll). No term limit on how many times someone may hold the office. The Cabinet is collectively responsible to Parliament, and the Prime Minister holds office at the President's pleasure — but the President may only act on that pleasure if satisfied the PM has lost the confidence of the Assembly majority, and even then must first require a confidence vote rather than dismiss outright.",
+          "crossRefs": []
+        },
+        {
+          "num": "92",
+          "title": "Federal Ministers and Ministers of State",
+          "justiciable": true,
+          "description": "The President appoints Federal Ministers and Ministers of State from Parliament's membership on the Prime Minister's advice. No more than one-quarter of Federal Ministers may come from the Senate rather than the National Assembly, and the 18th Amendment capped the total Cabinet (including Ministers of State) at 11% of Parliament's total membership — a direct check on cabinet bloat.",
+          "crossRefs": []
+        },
+        {
+          "num": "95",
+          "title": "Vote of no-confidence against Prime Minister",
+          "justiciable": true,
+          "description": "A no-confidence resolution needs at least 20% of the National Assembly's total membership to move it, cannot be voted on before 3 days or after 7 days from being moved, cannot be moved while the Assembly is considering the Annual Budget, and removes the Prime Minister immediately if passed by a majority of total membership. The procedural mechanism behind every high-profile no-confidence vote in Pakistani politics — including the one that removed Imran Khan's government in April 2022.",
+          "crossRefs": [],
+          "lineage": [
+            {
+              "label": "1973 original text",
+              "detail": "No-confidence procedure existed from the outset, requiring the same 20%-to-move / majority-to-pass structure."
+            },
+            {
+              "label": "8th Amendment, 1985",
+              "detail": "Article 58(2)(b) gave the President an independent, competing power to dismiss a PM/dissolve the Assembly outright — bypassing this Article's parliamentary mechanism entirely."
+            },
+            {
+              "label": "18th Amendment, 2010",
+              "detail": "58(2)(b) repealed. This Article's parliamentary no-confidence procedure became, once again, the only constitutional route to remove a sitting Prime Minister."
+            },
+            {
+              "label": "April 2022",
+              "detail": "Used against Imran Khan's government — the most prominent real-world application of this exact clause."
+            }
+          ]
+        },
+        {
+          "num": "97",
+          "title": "Extent of executive authority of the Federation",
+          "justiciable": true,
+          "description": "Federal executive authority extends to whatever matters Parliament has power to legislate on — including exercising rights and jurisdiction outside Pakistan itself. Where a Provincial Assembly also has legislative power over a matter, federal executive authority does not automatically extend into the province on that matter unless the Constitution or a Parliamentary law expressly says so — a structural echo of the Art.142/143 federalism boundary in Strand 3.",
+          "crossRefs": [
+            {
+              "code": "Art. 142/143",
+              "note": "see Federalism strand — same boundary logic, executive instead of legislative"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "federalism",
       "label": "Strand 3",
       "name": "Federalism",
       "description": "Provinces, Governor, Provincial Assembly, Federal/Concurrent Legislative Lists.",
-      "articles": []
+      "articles": [
+        {
+          "num": "101",
+          "title": "Appointment of Governor",
+          "justiciable": true,
+          "description": "A Governor for each Province, appointed by the President on the Prime Minister's advice — not elected. Must be qualified for National Assembly membership, 35+, and (per the 18th Amendment) a registered voter resident of that specific Province — closing an earlier loophole that let the Federal Government post an outsider to govern a province.",
+          "crossRefs": []
+        },
+        {
+          "num": "129",
+          "title": "The Provincial Government",
+          "justiciable": true,
+          "description": "Provincial executive authority is exercised in the Governor's name by the Provincial Government — Chief Minister and Provincial Ministers — acting through the Chief Minister. Structurally mirrors the President/PM split at the federal level (Art. 48).",
+          "crossRefs": []
+        },
+        {
+          "num": "130",
+          "title": "The Provincial Cabinet",
+          "justiciable": true,
+          "description": "A Cabinet of Ministers with the Chief Minister at its head advises the Governor, exercising real executive power the way the Federal Cabinet advises the President.",
+          "crossRefs": []
+        },
+        {
+          "num": "140A",
+          "title": "Local Government",
+          "justiciable": true,
+          "description": "Each Province must, by law, establish an elected local government system and devolve political, administrative, and financial authority to it — inserted by the 18th Amendment. This is the second-tier devolution the Federalism essay flagged as the honest asterisk on the 18th Amendment's legacy: provinces have been consistently slower to hand power down to this tier than they were to receive it from the Federation.",
+          "crossRefs": [
+            {
+              "code": "18th Amendment essay",
+              "note": "see Turtles — local-government devolution lag"
+            }
+          ]
+        },
+        {
+          "num": "141",
+          "title": "Extent of Federal and Provincial laws",
+          "justiciable": true,
+          "description": "Parliament may legislate for the whole or any part of Pakistan (including extra-territorially); a Provincial Assembly may legislate for its Province.",
+          "crossRefs": []
+        },
+        {
+          "num": "142",
+          "title": "Subject-matter of Federal and Provincial laws",
+          "justiciable": true,
+          "description": "Parliament has exclusive power over the Federal Legislative List. Both Parliament and Provincial Assemblies may legislate on criminal law, procedure, and evidence — genuinely concurrent, but narrower than the old Concurrent List. A Provincial Assembly — not Parliament — has power over anything NOT on the Federal Legislative List. This is the 18th Amendment's core textual mechanism: the old Concurrent List was deleted outright, and this residual clause is what turned 47 formerly-shared subjects into exclusively provincial ones overnight.",
+          "crossRefs": [
+            {
+              "code": "18th Amendment essay",
+              "note": "see Turtles — this is the actual clause that abolished the Concurrent List"
+            }
+          ]
+        },
+        {
+          "num": "143",
+          "title": "Inconsistency between Federal and Provincial laws",
+          "justiciable": true,
+          "description": "Where a competent Act of Parliament conflicts with a Provincial Act, the federal law prevails and the provincial law is void to the extent of the conflict — regardless of which was passed first. The textual basis for the Sui Southern Gas reasoning discussed in the Federalism essay: a devolved subject can still be overridden by valid federal legislation where genuine inconsistency exists.",
+          "crossRefs": [
+            {
+              "code": "Sui Southern Gas",
+              "note": "see 18th Amendment essay — labour law re-federalized via this clause"
+            }
+          ]
+        },
+        {
+          "num": "144",
+          "title": "Parliament legislating for provinces by consent",
+          "justiciable": true,
+          "description": "If one or more Provincial Assemblies pass resolutions requesting it, Parliament may legislate on a matter otherwise outside its reach for those provinces specifically — and that province's own Assembly can later amend or repeal that law itself. An opt-in mechanism for provinces to borrow federal legislative capacity without permanently ceding the subject.",
+          "crossRefs": []
+        },
+        {
+          "num": "146",
+          "title": "Federation entrusting functions to Provinces",
+          "justiciable": true,
+          "description": "The Federal Government may, with a Province's consent, entrust federal executive functions to that Province or its officers — with the Federation paying the Province's extra administrative costs, arbitrated by the Federal Constitutional Court's Chief Justice if the parties can't agree on the amount.",
+          "crossRefs": []
+        },
+        {
+          "num": "153",
+          "title": "Council of Common Interests",
+          "justiciable": true,
+          "description": "The CCI: Prime Minister as chairman, all four provincial Chief Ministers, plus three federally-nominated members. Responsible to Parliament, must submit an Annual Report. This is the constitutional forum where federal-provincial disputes over shared-interest matters (electricity, natural resources) actually get negotiated, not litigated.",
+          "crossRefs": []
+        },
+        {
+          "num": "154",
+          "title": "CCI functions and rules of procedure",
+          "justiciable": true,
+          "description": "Formulates and controls policy on Federal Legislative List Part II matters (the 18-entry list of genuinely shared federal-provincial concerns: electricity, major ports, national planning, inter-provincial coordination). Must be constituted within 30 days of a new PM's oath, meets at least every 90 days, decisions by majority vote. If the Federal or a Provincial Government disagrees with a CCI decision, the matter goes to a Parliamentary joint sitting for final resolution — not to court.",
+          "crossRefs": []
+        },
+        {
+          "num": "160",
+          "title": "National Finance Commission",
+          "justiciable": true,
+          "description": "A Commission — federal and provincial Finance Ministers plus presidential appointees — reconstituted at least every 5 years, recommends how to split the divisible tax pool between the Federation and Provinces. Critically, an 18th Amendment safeguard now states a province's share in any new Award CANNOT be less than its share in the previous one — a ratchet that only moves toward greater provincial share, never back. This is the actual textual mechanism behind the 47.5%→57.5% shift the 18th Amendment essay describes.",
+          "crossRefs": [
+            {
+              "code": "18th Amendment essay",
+              "note": "see Turtles — the 3A ratchet clause behind the NFC share increase"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "islamic-provisions",
       "label": "Strand 4",
       "name": "Islamic Provisions",
       "description": "Articles 227–231 — Council of Islamic Ideology, Islamisation of laws.",
-      "articles": []
+      "articles": [
+        {
+          "num": "227",
+          "title": "Provisions relating to the Holy Quran and Sunnah",
+          "justiciable": true,
+          "description": "All existing laws must conform to the Injunctions of Islam as laid down in the Quran and Sunnah, and no repugnant law may be enacted. For a Muslim sect's personal law, 'Quran and Sunnah' means as interpreted by that sect. Does NOT affect non-Muslim citizens' personal laws or their status as citizens — this carve-out is the textual anchor for the Article 2A/20/25 tension essay already written.",
+          "crossRefs": [
+            {
+              "code": "Art. 2A",
+              "note": "see Turtles: Article 2A, 20 & 25 tension essay"
+            },
+            {
+              "code": "S.295-C PPC",
+              "note": "blasphemy — the sharpest real-world test of the Art.227(3) non-Muslim carve-out"
+            }
+          ]
+        },
+        {
+          "num": "228",
+          "title": "Composition of the Islamic Council",
+          "justiciable": false,
+          "description": "The Council of Islamic Ideology — 8 to 20 members appointed by the President, drawn from Islamic scholarship and from those understanding Pakistan's economic/political/legal/administrative problems. At least 2 must be current or former superior court judges, at least one-third engaged 15+ years in Islamic research, at least one member a woman. Three-year terms.",
+          "crossRefs": []
+        },
+        {
+          "num": "229",
+          "title": "Reference to the Islamic Council",
+          "justiciable": false,
+          "description": "The President, a Governor, or one-quarter of a House's/Assembly's membership may refer a proposed law to the Islamic Council for an opinion on whether it's repugnant to Islamic Injunctions.",
+          "crossRefs": []
+        },
+        {
+          "num": "230",
+          "title": "Functions of the Islamic Council",
+          "justiciable": false,
+          "description": "Advisory only — recommends how laws can be brought into conformity with Islamic Injunctions, advises on referred questions, and reports to Parliament, which must then legislate on the final report within two years. A proposed law can be enacted before the Council's advice arrives if public interest requires — the advice does not have a veto, only a reconsideration trigger.",
+          "crossRefs": []
+        },
+        {
+          "num": "231",
+          "title": "Rules of procedure",
+          "justiciable": false,
+          "description": "The Islamic Council regulates its own proceedings via rules approved by the President.",
+          "crossRefs": []
+        }
+      ]
     },
     {
       "id": "emergency-amendment",
       "label": "Strand 5",
       "name": "Emergency, Amendment & Schedule",
       "description": "Emergency powers, amendment procedure, Schedules.",
-      "articles": []
+      "articles": [
+        {
+          "num": "232",
+          "title": "Proclamation of emergency",
+          "justiciable": true,
+          "description": "The President may proclaim emergency where Pakistan's security is threatened by war, external aggression, or internal disturbance beyond a Province's control to manage. Internal-disturbance emergencies require that Province's own Assembly to pass a resolution first — a 2010 (18th Amendment) safeguard against a unilateral federal declaration against a province's wishes. Any presidential proclamation must be approved by both Houses within 10 days. During emergency, Parliament can legislate for a Province on matters otherwise outside its reach, and the Federal Government can assume provincial executive functions.",
+          "crossRefs": []
+        },
+        {
+          "num": "233",
+          "title": "Power to suspend Fundamental Rights during emergency",
+          "justiciable": true,
+          "description": "During a proclaimed emergency, the President may suspend the right to move any court to enforce specified Fundamental Rights, and orders taken under that suspension cannot be challenged in any court on the ground of inconsistency with those Rights. One of the sharpest tensions in the whole document — an explicit, textual override of the Chapter 1 justiciability guarantee this app treats as its central organizing badge.",
+          "crossRefs": [
+            {
+              "code": "historical use",
+              "note": "actually invoked: 14 Aug 1973 (continued in force via joint-sitting resolutions through 1974) and 28 May 1998 — verified against the Constitution's own official footnoted record"
+            }
+          ]
+        },
+        {
+          "num": "238",
+          "title": "Amendment of the Constitution",
+          "justiciable": true,
+          "description": "A constitutional amendment Bill requires a two-thirds majority of the total membership of each House separately. This is the mechanism behind all 27 amendments discussed throughout this module's essays — including the 26th and 27th Amendments restructuring the judiciary. No entrenched/unamendable clause exists in this Constitution the way Germany's Basic Law has one (see the First Principles postwar-wave essay) — everything, in principle, can be amended by this same two-thirds procedure.",
+          "crossRefs": [
+            {
+              "code": "First Principles",
+              "note": "compare Germany's unamendable 'eternity clause'"
+            }
+          ]
+        },
+        {
+          "num": "234",
+          "title": "Failure of constitutional machinery in a Province",
+          "justiciable": true,
+          "description": "If the President, on the Governor's report, is satisfied a Province's government cannot be carried on per the Constitution, the President may (or must, if both Houses pass a resolution) proclaim and assume the Province's executive functions directly, or direct the Governor to do so on the Federation's behalf — bypassing the Provincial Assembly.",
+          "crossRefs": []
+        },
+        {
+          "num": "235",
+          "title": "Financial emergency",
+          "justiciable": true,
+          "description": "Where the President is satisfied Pakistan's (or a Province's) economic life, financial stability, or credit is threatened, a Proclamation can direct provinces to observe specified financial propriety principles — including reducing salaries of provincial and (if needed) federal government employees.",
+          "crossRefs": []
+        },
+        {
+          "num": "236",
+          "title": "Revocation of Proclamation",
+          "justiciable": true,
+          "description": "Any emergency Proclamation may be varied or revoked by a later one — and its validity cannot be questioned in any court. A second explicit ouster clause layered on top of Article 233's fundamental-rights suspension power.",
+          "crossRefs": [
+            {
+              "code": "Art. 233",
+              "note": "the two provisions together — suspension power plus non-justiciability of the Proclamation itself"
+            }
+          ]
+        },
+        {
+          "num": "237",
+          "title": "Indemnity laws",
+          "justiciable": true,
+          "description": "Parliament may pass laws indemnifying — legally protecting from consequence — anyone in federal or provincial government service, or any other person, for acts done in connection with maintaining or restoring order. The textual mechanism that has, historically, shielded officials acting under martial law or emergency from later prosecution.",
+          "crossRefs": []
+        },
+        {
+          "num": "239",
+          "title": "Constitution amendment Bill procedure",
+          "justiciable": true,
+          "description": "An amendment Bill needs two-thirds of the total membership in each House separately (with a reconciliation process if amended by the second House), then presidential assent — and if it would alter a Province's boundaries, that Province's own Assembly must also approve by two-thirds. Amended by the 27th Amendment (2025) to add clause (5): no court has jurisdiction to question ANY constitutional amendment on any ground whatsoever — a direct, textual response to any future attempt to have a court strike down an amendment the way courts elsewhere sometimes review amendments for basic-structure violations. Clause (6) reinforces this: there is no limitation whatever on Parliament's amending power. Together, these make Pakistan's amendment power textually unlimited in a way India's 'basic structure doctrine' (Kesavananda Bharati) explicitly is not — worth building into a future comparative note.",
+          "crossRefs": [
+            {
+              "code": "27th Amendment",
+              "note": "s.50 — the no-judicial-review-of-amendments clause"
+            }
+          ],
+          "lineage": [
+            {
+              "label": "1973 original text",
+              "detail": "Two-thirds-of-total-membership-in-each-House amendment procedure, presidential assent required."
+            },
+            {
+              "label": "8th Amendment, 1985 (P.O. 14 of 1985)",
+              "detail": "Substituted the current form of Article 239, formalizing the two-House reconciliation process."
+            },
+            {
+              "label": "27th Amendment, 2025",
+              "detail": "New clause (5) added — bars any court from questioning a constitutional amendment on any ground whatsoever. Clause (6) reinforces there is no limitation on Parliament's amending power. Makes the amendment power textually unlimited, unlike India's judicially-created 'basic structure doctrine.'"
+            }
+          ]
+        }
+      ]
     }
   ],
   "historicalConstitutions": [
