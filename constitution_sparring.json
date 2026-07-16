@@ -1,0 +1,72 @@
+{
+  "_meta": {
+    "note": "Session 3 of 7. New file — not originally listed in the four-file data architecture from the design log, added because sparring content needs its own home distinct from article metadata. constitution_articles.json is unaffected. 8 questions this pass, each naming the actual doctrinal test rather than asking for a vote. Contested is offered as a real option, not a trap — some of these are genuinely unsettled.",
+    "schema": "Each question: {id, article, test(name of the doctrinal test being applied), scenario, resolution(what a court applying the named test would weigh — NOT a claimed real verdict unless citing an actual case), contestedNote(optional — why Contested is defensible here)}"
+  },
+  "questions": [
+    {
+      "id": "sp-1",
+      "article": "25",
+      "test": "Reasonable classification test",
+      "scenario": "A provincial law reserves 10% of civil service posts for women only in departments historically dominated by men. A male applicant challenges it as sex discrimination under Article 25.",
+      "resolution": "Article 25(3) explicitly permits special provision for the protection of women — the classification test asks whether the distinction has a rational nexus to a legitimate object (correcting historical exclusion) rather than being arbitrary. A quota tied to demonstrated underrepresentation in a specific sector passes; a blanket quota with no evidentiary basis would not.",
+      "contestedNote": null
+    },
+    {
+      "id": "sp-2",
+      "article": "19",
+      "test": "Reasonable restriction test",
+      "scenario": "A newspaper is banned from publishing a story naming a sitting judge in connection with an ongoing corruption investigation, on the ground that it constitutes contempt of court.",
+      "resolution": "Article 19 permits restriction on grounds including contempt of court, but the restriction must itself be reasonable — courts weigh whether the ban is proportionate to the harm (undermining judicial proceedings) versus the public interest in reporting on judicial accountability. A blanket pre-publication ban is a much harder sell than post-publication contempt liability for specific false claims.",
+      "contestedNote": "Genuinely contested — Pakistani courts have not settled a single clear line between prior restraint and after-the-fact contempt liability in cases involving the judiciary itself."
+    },
+    {
+      "id": "sp-3",
+      "article": "10A",
+      "test": "Fair trial and due process",
+      "scenario": "A special tribunal convicts a defendant based substantially on a confession later alleged to have been obtained under duress, with the defendant given only 48 hours to prepare a defence.",
+      "resolution": "Article 10-A's due process guarantee weighs adequacy of time to prepare, right to counsel, and reliability of evidence. A confession-heavy conviction with minimal preparation time is a strong due-process violation on the facts as stated — but the outcome depends heavily on what safeguards the tribunal did provide, which a bare hypothetical can't fully settle.",
+      "contestedNote": null
+    },
+    {
+      "id": "sp-4",
+      "article": "9A",
+      "test": "Balancing environmental right against economic development",
+      "scenario": "A provincial government approves a coal power plant near a residential area without a completed environmental impact assessment, citing urgent energy needs.",
+      "resolution": "Post-9A, this is now a direct textual claim rather than the Shehla Zia interpretive route. Courts weigh the right to a healthy environment against the state's competing policy interest — the missing impact assessment is the strongest single fact, since procedural compliance is usually easier to enforce than substituting the court's own judgment on energy policy.",
+      "contestedNote": null
+    },
+    {
+      "id": "sp-5",
+      "article": "20",
+      "test": "Freedom to profess religion vs. public order restriction",
+      "scenario": "A religious minority's request to build a new place of worship is denied by local authorities citing 'potential public order concerns' with no specific incident cited.",
+      "resolution": "Article 20's guarantee is subject to law, public order, and morality — but the restriction itself must be reasoned, not speculative. A denial citing only generalized, non-specific concern is weak under the same reasonableness standard applied to Article 19 restrictions; the burden is on the State to show a concrete basis.",
+      "contestedNote": "Contested in practice — this is precisely the pattern human rights organizations have flagged repeatedly, but litigated outcomes have been inconsistent."
+    },
+    {
+      "id": "sp-6",
+      "article": "24",
+      "test": "Deprivation of property — compensation adequacy",
+      "scenario": "The government acquires agricultural land for a highway project and pays compensation based on a valuation from 15 years prior, unadjusted for inflation.",
+      "resolution": "Article 24 requires law providing for compensation, but doesn't itself fix a valuation method. Courts have generally read 'compensation' as requiring a genuine, current-value assessment rather than a nominal figure — a valuation frozen at a 15-year-old rate is vulnerable, though the precise adequacy threshold is not sharply defined in the text itself.",
+      "contestedNote": null
+    },
+    {
+      "id": "sp-7",
+      "article": "15",
+      "test": "Freedom of movement vs. security restriction",
+      "scenario": "A district administration imposes a curfew in a specific neighbourhood for one week, citing intelligence about an imminent security threat, with no judicial order authorizing it.",
+      "resolution": "Article 15 permits restriction by law in the public interest — the live question is whether an administrative curfew order without prior judicial authorization satisfies 'by law' or requires a more specific statutory basis and time-limited review. Short-duration, geographically narrow curfews tied to specific intelligence tend to survive; open-ended ones are harder to defend.",
+      "contestedNote": null
+    },
+    {
+      "id": "sp-8",
+      "article": "18",
+      "test": "Freedom of trade vs. licensing regulation",
+      "scenario": "A new provincial law requires all street food vendors to obtain a costly annual license with a lengthy application process, effectively pricing out most existing small vendors.",
+      "resolution": "Article 18 permits regulation by law, including licensing and qualification requirements — but a regulation that functions as a de facto prohibition for an entire class of small operators, rather than a genuine quality/safety qualification, strains the line between 'regulate' and 'restrict out of existence.'",
+      "contestedNote": "Contested — the line between legitimate regulation and effective prohibition through cost barriers has not been sharply drawn in Pakistani case law for this fact pattern specifically."
+    }
+  ]
+}

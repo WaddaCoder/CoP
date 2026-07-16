@@ -1,0 +1,437 @@
+{
+  "_meta": {
+    "note": "Session 2 of 7. Strand 1 (Fundamental Rights + Principles of Policy) populated with verified content from the Nov 2025 / 27th Amendment edition in project knowledge. Descriptions are paraphrased, not verbatim (copyright discipline — full text lives in constitution_baretext.json, out of v1 scope). Strands 2-5 remain empty shells for later sessions. Session 6 of 7 added historicalConstitutions (1956, 1962) as structural Exploration entries per the design log's reversal — not essays, not muted reference cards. Each structural card carries a lineageForward note connecting it to the current 1973 text. Governor-General->President and C-in-C->COAS title-change facts (verified in an earlier session) are reflected here with correct attribution.",
+    "schema": "Each article: {num, title, justiciable(bool), description, crossRefs:[{code,note}], lineage:[{label,detail}]}",
+    "crossRefCaveat": "Cross-references are seeded conservatively this pass — only pairings with clear, well-established doctrinal grounding are included. This list is a starting set, not exhaustive; expanding it further is real verification work for a later pass, not guessed.",
+    "predecessorCaveat": "Predecessor-constitution mapping (1956/1962 lineage) is NOT included in this pass. Per the design log's own caveat, promising accurate article-by-article mapping across three constitutions without dedicated verification work is a real accuracy risk — deferred rather than guessed."
+  },
+  "strands": [
+    {
+      "id": "foundations-fr",
+      "label": "Strand 1",
+      "name": "Fundamental Rights",
+      "description": "Chapter 1, Part II — justiciable. Courts void any law inconsistent with this Chapter (Art. 8).",
+      "articles": [
+        {
+          "num": "8",
+          "title": "Laws inconsistent with Fundamental Rights to be void",
+          "justiciable": true,
+          "description": "Any law, or custom having the force of law, that conflicts with this Chapter is void to the extent of that conflict. The State cannot make a law that takes away or narrows these rights.",
+          "crossRefs": []
+        },
+        {
+          "num": "9",
+          "title": "Security of person",
+          "justiciable": true,
+          "description": "No person shall be deprived of life or liberty save in accordance with law.",
+          "crossRefs": [
+            {
+              "code": "S.302 PPC",
+              "note": "capital punishment debates"
+            }
+          ],
+          "lineage": [
+            {
+              "label": "1973 original text",
+              "detail": "Article 9 alone — narrow textual guarantee of life and liberty."
+            },
+            {
+              "label": "Shehla Zia v. WAPDA, PLD 1994 SC 693",
+              "detail": "Read with Article 14 (dignity) to imply a right to a healthy environment, decades before any standalone textual right existed."
+            },
+            {
+              "label": "26th Amendment, 2024",
+              "detail": "Article 9-A inserted — the environmental right becomes its own standalone justiciable text rather than an interpretive stretch."
+            }
+          ]
+        },
+        {
+          "num": "9A",
+          "title": "Clean and healthy environment",
+          "justiciable": true,
+          "description": "Every person has the right to a clean, healthy and sustainable environment. Inserted by the 26th Amendment, 2024 — codifying what Shehla Zia v. WAPDA had argued its way to through Article 9 three decades earlier.",
+          "crossRefs": [
+            {
+              "code": "Shehla Zia v. WAPDA",
+              "note": "see Landmark Cases"
+            }
+          ]
+        },
+        {
+          "num": "10",
+          "title": "Safeguards as to arrest and detention",
+          "justiciable": true,
+          "description": "A person arrested must be informed of the grounds for arrest, given the right to consult and be defended by a lawyer of their choice, and produced before a magistrate within 24 hours (excluding travel time).",
+          "crossRefs": []
+        },
+        {
+          "num": "10A",
+          "title": "Right to fair trial",
+          "justiciable": true,
+          "description": "For determination of civil rights and obligations, or any criminal charge, a person is entitled to a fair trial and due process. Inserted by the 18th Amendment, 2010 — previously fair trial was pieced together from other Articles rather than stated outright.",
+          "crossRefs": []
+        },
+        {
+          "num": "11",
+          "title": "Slavery, forced labour, etc., prohibited",
+          "justiciable": true,
+          "description": "Slavery is non-existent and forbidden. All forced labour and human trafficking are prohibited. No child under 14 may be engaged in a factory, mine, or other hazardous employment.",
+          "crossRefs": []
+        },
+        {
+          "num": "12",
+          "title": "Protection against retrospective punishment",
+          "justiciable": true,
+          "description": "No law can punish an act that was not a crime when committed, or impose a harsher penalty than existed at the time of the offence.",
+          "crossRefs": []
+        },
+        {
+          "num": "13",
+          "title": "Protection against double punishment and self-incrimination",
+          "justiciable": true,
+          "description": "No person shall be prosecuted or punished twice for the same offence, or compelled to be a witness against themselves.",
+          "crossRefs": []
+        },
+        {
+          "num": "14",
+          "title": "Inviolability of dignity of man",
+          "justiciable": true,
+          "description": "The dignity of man, and subject to law, the privacy of the home, are inviolable. No person may be tortured for the purpose of extracting evidence.",
+          "crossRefs": [
+            {
+              "code": "Shehla Zia v. WAPDA",
+              "note": "read with Art. 9 — see Landmark Cases"
+            }
+          ]
+        },
+        {
+          "num": "15",
+          "title": "Freedom of movement",
+          "justiciable": true,
+          "description": "Every citizen may remain in, enter, and move freely throughout Pakistan, and reside and settle anywhere in it, subject to reasonable restriction by law in the public interest.",
+          "crossRefs": []
+        },
+        {
+          "num": "16",
+          "title": "Freedom of assembly",
+          "justiciable": true,
+          "description": "Every citizen may assemble peacefully and without arms, subject to reasonable restrictions imposed by law in the interest of public order.",
+          "crossRefs": []
+        },
+        {
+          "num": "17",
+          "title": "Freedom of association",
+          "justiciable": true,
+          "description": "Every citizen has the right to form associations and unions, subject to reasonable restrictions by law in the interest of sovereignty, integrity, public order, or morality.",
+          "crossRefs": []
+        },
+        {
+          "num": "18",
+          "title": "Freedom of trade, business or profession",
+          "justiciable": true,
+          "description": "Every citizen may enter any lawful profession or trade and conduct any lawful business, subject to qualification requirements and regulation.",
+          "crossRefs": []
+        },
+        {
+          "num": "19",
+          "title": "Freedom of speech",
+          "justiciable": true,
+          "description": "Every citizen has the right to freedom of speech and expression, subject to reasonable restrictions in the interest of the glory of Islam, the security of Pakistan, friendly foreign relations, public order, decency, morality, contempt of court, or incitement to an offence.",
+          "crossRefs": [
+            {
+              "code": "S.295-C PPC",
+              "note": "blasphemy — well-established tension point"
+            }
+          ]
+        },
+        {
+          "num": "19A",
+          "title": "Right to information",
+          "justiciable": true,
+          "description": "Every citizen has the right to have access to information in matters of public importance, subject to regulation by law. Inserted by the 18th Amendment, 2010.",
+          "crossRefs": []
+        },
+        {
+          "num": "20",
+          "title": "Freedom to profess religion",
+          "justiciable": true,
+          "description": "Every citizen has the right to profess, practise, and propagate their religion, and every religious denomination has the right to establish, maintain, and manage its own religious institutions.",
+          "crossRefs": [
+            {
+              "code": "S.295-C PPC",
+              "note": "tension with Art. 2A / Art. 227-231 — see Turtles"
+            }
+          ]
+        },
+        {
+          "num": "21",
+          "title": "Safeguard against religious taxation",
+          "justiciable": true,
+          "description": "No person shall be compelled to pay a tax whose proceeds are specifically spent on the propagation of any religion other than their own.",
+          "crossRefs": []
+        },
+        {
+          "num": "22",
+          "title": "Safeguards as to educational institutions",
+          "justiciable": true,
+          "description": "No person attending an educational institution may be required to receive religious instruction relating to a religion other than their own, or to attend religious worship other than their own.",
+          "crossRefs": []
+        },
+        {
+          "num": "23",
+          "title": "Provision as to property",
+          "justiciable": true,
+          "description": "Every citizen has the right to acquire, hold, and dispose of property in any part of Pakistan, subject to law and the public interest.",
+          "crossRefs": []
+        },
+        {
+          "num": "24",
+          "title": "Protection of property rights",
+          "justiciable": true,
+          "description": "No person shall be deprived of property except in accordance with law; compulsory acquisition or requisition requires law providing for compensation.",
+          "crossRefs": []
+        },
+        {
+          "num": "25",
+          "title": "Equality of citizens",
+          "justiciable": true,
+          "description": "All citizens are equal before law and entitled to equal protection of law. There shall be no discrimination on the basis of sex alone. Nothing prevents the State from making special provision for the protection of women and children.",
+          "crossRefs": [
+            {
+              "code": "S.375 PPC",
+              "note": "rape law reform debates"
+            }
+          ]
+        },
+        {
+          "num": "25A",
+          "title": "Right to education",
+          "justiciable": true,
+          "description": "The State shall provide free and compulsory education to all children aged 5 to 16, in a manner determined by law. Inserted by the 18th Amendment, 2010.",
+          "crossRefs": []
+        },
+        {
+          "num": "26",
+          "title": "Non-discrimination in access to public places",
+          "justiciable": true,
+          "description": "No citizen shall be denied access to public places (subject to their special nature) on grounds only of race, religion, caste, sex, residence, or place of birth.",
+          "crossRefs": []
+        },
+        {
+          "num": "27",
+          "title": "Safeguard against discrimination in services",
+          "justiciable": true,
+          "description": "No citizen otherwise qualified for appointment to a Pakistan service shall be discriminated against on grounds only of race, religion, caste, sex, residence, or place of birth.",
+          "crossRefs": []
+        },
+        {
+          "num": "28",
+          "title": "Preservation of language, script and culture",
+          "justiciable": true,
+          "description": "Any section of citizens with a distinct language, script, or culture has the right to preserve and promote it, and to establish institutions for that purpose.",
+          "crossRefs": []
+        }
+      ]
+    },
+    {
+      "id": "foundations-pop",
+      "label": "Strand 1",
+      "name": "Principles of Policy",
+      "description": "Chapter 2, Part II — non-justiciable. Courts cannot strike down legislation for falling short of these Principles (Art. 30); they guide policy, not litigation.",
+      "articles": [
+        {
+          "num": "29",
+          "title": "Principles of Policy",
+          "justiciable": false,
+          "description": "Every organ and authority of the State is responsible for acting in accordance with these Principles, subject to available resources. An annual report on their observance must be laid before Parliament / the Provincial Assembly.",
+          "crossRefs": []
+        },
+        {
+          "num": "30",
+          "title": "Responsibility with respect to Principles of Policy",
+          "justiciable": false,
+          "description": "Whether an action complies with the Principles of Policy is for the relevant organ or authority itself to decide — the validity of a law or action cannot be challenged in court on the ground that it doesn't follow these Principles. This is the clause that makes Chapter 2 non-justiciable — see the Turtles essay on the non-justiciability trap.",
+          "crossRefs": []
+        },
+        {
+          "num": "31",
+          "title": "Islamic way of life",
+          "justiciable": false,
+          "description": "Steps shall be taken to enable Muslims to order their lives according to Islam, including compulsory Quran teaching, encouraging Arabic learning, and proper organisation of zakat and mosques.",
+          "crossRefs": []
+        },
+        {
+          "num": "32",
+          "title": "Promotion of local Government institutions",
+          "justiciable": false,
+          "description": "The State shall encourage local government institutions with elected representatives, giving special representation to peasants, workers, and women.",
+          "crossRefs": []
+        },
+        {
+          "num": "33",
+          "title": "Parochial prejudices to be discouraged",
+          "justiciable": false,
+          "description": "The State shall discourage parochial, racial, tribal, sectarian, and provincial prejudices among citizens.",
+          "crossRefs": []
+        },
+        {
+          "num": "34",
+          "title": "Full participation of women in national life",
+          "justiciable": false,
+          "description": "Steps shall be taken to ensure full participation of women in all spheres of national life.",
+          "crossRefs": []
+        },
+        {
+          "num": "35",
+          "title": "Protection of family",
+          "justiciable": false,
+          "description": "The State shall protect marriage, the family, the mother, and the child.",
+          "crossRefs": []
+        },
+        {
+          "num": "36",
+          "title": "Protection of minorities",
+          "justiciable": false,
+          "description": "The State shall safeguard the legitimate rights and interests of minorities, including their due representation in Federal and Provincial services.",
+          "crossRefs": []
+        },
+        {
+          "num": "37",
+          "title": "Promotion of social justice",
+          "justiciable": false,
+          "description": "The State shall promote the educational and economic interests of backward classes, remove illiteracy, ensure inexpensive justice, prevent exploitative practices, and decentralise government administration.",
+          "crossRefs": []
+        },
+        {
+          "num": "38",
+          "title": "Promotion of social and economic well-being",
+          "justiciable": false,
+          "description": "The State shall secure well-being irrespective of sex, caste, creed or race — preventing wealth concentration, providing social security, basic necessities, and reducing income disparity. Includes the mandate to eliminate riba (interest) before 1 January 2028.",
+          "crossRefs": []
+        },
+        {
+          "num": "39",
+          "title": "Participation of people in Armed Forces",
+          "justiciable": false,
+          "description": "The State shall enable people from all parts of Pakistan to participate in the Armed Forces.",
+          "crossRefs": []
+        },
+        {
+          "num": "40",
+          "title": "Strengthening bonds with the Muslim world",
+          "justiciable": false,
+          "description": "The State shall endeavour to preserve and strengthen fraternal relations among Muslim countries based on Islamic unity, support the common interests of the peoples of Asia, Africa and Latin America, promote international peace and security, and foster goodwill among all nations.",
+          "crossRefs": []
+        }
+      ]
+    },
+    {
+      "id": "state-machinery",
+      "label": "Strand 2",
+      "name": "State Machinery",
+      "description": "Federal legislature, executive, judiciary (incl. Federal Constitutional Court, 27th Amendment).",
+      "articles": []
+    },
+    {
+      "id": "federalism",
+      "label": "Strand 3",
+      "name": "Federalism",
+      "description": "Provinces, Governor, Provincial Assembly, Federal/Concurrent Legislative Lists.",
+      "articles": []
+    },
+    {
+      "id": "islamic-provisions",
+      "label": "Strand 4",
+      "name": "Islamic Provisions",
+      "description": "Articles 227–231 — Council of Islamic Ideology, Islamisation of laws.",
+      "articles": []
+    },
+    {
+      "id": "emergency-amendment",
+      "label": "Strand 5",
+      "name": "Emergency, Amendment & Schedule",
+      "description": "Emergency powers, amendment procedure, Schedules.",
+      "articles": []
+    }
+  ],
+  "historicalConstitutions": [
+    {
+      "id": "constitution-1956",
+      "year": "1956",
+      "name": "The 1956 Constitution",
+      "system": "Unicameral parliamentary",
+      "fate": "Abrogated by President Iskander Mirza's martial law, 7 October 1958 — in force under two years.",
+      "cards": [
+        {
+          "topic": "Legislature",
+          "title": "Unicameral National Assembly",
+          "description": "A single elected National Assembly, direct adult franchise, seats split equally between East and West Pakistan under the parity principle regardless of population.",
+          "lineageForward": "1973 replaced this with a bicameral Parliament — see State Machinery strand. By then East Pakistan had seceded, so parity was no longer the problem bicameralism had to solve."
+        },
+        {
+          "topic": "Executive",
+          "title": "Governor-General title retired — President created",
+          "description": "The 1956 Constitution converted Pakistan from a Dominion to the Islamic Republic of Pakistan, retiring the Governor-General title inherited from 1947 and creating the office of President as head of state. Iskander Mirza became the first President.",
+          "lineageForward": "The President title has been carried forward unchanged through 1962 and 1973 — this is the constitution that actually created it, not 1973."
+        },
+        {
+          "topic": "Electoral Mechanism",
+          "title": "Direct adult franchise",
+          "description": "Members of the National Assembly were directly elected by adult citizens — no intermediary electoral college.",
+          "lineageForward": "1962 abandoned this for indirect election through Basic Democrats (see the 1962 entry). 1973 restored direct franchise and has kept it since."
+        },
+        {
+          "topic": "Treatment of the Provinces / Wings",
+          "title": "One Unit: West Pakistan merged into a single bloc",
+          "description": "All four West Pakistan provinces (Punjab, Sindh, NWFP, Balochistan) were administratively merged into a single 'One Unit' in 1955, specifically so West Pakistan as one bloc could sit at legislative parity with East Pakistan, despite East Pakistan holding the actual population majority.",
+          "lineageForward": "One Unit was dissolved in 1970, before the 1973 Constitution was drafted. 1973's federalism instead answers a different fracture — smaller provinces' fear of Punjab dominating a single house — through Senate parity. See the 18th Amendment essay."
+        },
+        {
+          "topic": "Fundamental Rights",
+          "title": "A Fundamental Rights chapter existed, justiciable in principle",
+          "description": "The 1956 Constitution included an enforceable Fundamental Rights chapter, structurally the ancestor of the current Chapter 1 — though the specific text and numbering do not map cleanly onto today's Articles 8-28, and dedicated verification work is needed before claiming article-by-article lineage beyond this general structural continuity.",
+          "lineageForward": "See the predecessorCaveat in this file's _meta — precise article-to-article mapping is deferred, not guessed."
+        }
+      ]
+    },
+    {
+      "id": "constitution-1962",
+      "year": "1962",
+      "name": "The 1962 Constitution",
+      "system": "Unicameral presidential",
+      "fate": "Abrogated 1969, following Ayub Khan's resignation amid nationwide unrest and the transfer of power to General Yahya Khan.",
+      "cards": [
+        {
+          "topic": "Legislature",
+          "title": "Unicameral National Assembly, indirectly elected",
+          "description": "A single National Assembly, but its members — and the President — were now chosen indirectly through the Basic Democrats rather than by direct adult vote.",
+          "lineageForward": "1973 restored a directly elected legislature and made it bicameral. The indirect-election model was never revived."
+        },
+        {
+          "topic": "Executive",
+          "title": "A strong, directly empowered Presidency",
+          "description": "Ayub Khan's system concentrated executive authority in the President far more than 1956's parliamentary model had, reflecting his explicit view that 1956's instability came from an electorate not yet ready for direct, unmediated suffrage.",
+          "lineageForward": "1973 rebalanced toward a parliamentary system with a Prime Minister as chief executive — though the President-vs-Prime Minister balance of power has itself been renegotiated repeatedly since, via the 8th, 13th, 17th, and 18th Amendments."
+        },
+        {
+          "topic": "Electoral Mechanism",
+          "title": "The Basic Democrats — indirect election via ~80,000 local representatives",
+          "description": "Roughly 80,000 Basic Democrats, themselves locally elected, formed an electoral college that chose both the President and the National Assembly. Ayub Khan framed this explicitly as a corrective to what he saw as premature direct suffrage.",
+          "lineageForward": "This is the one structural feature of any of the three constitutions with no lineage forward at all — 1973 rejected it outright and no subsequent amendment has revived indirect election for the National Assembly."
+        },
+        {
+          "topic": "Treatment of the Provinces / Wings",
+          "title": "One Unit continued",
+          "description": "The 1962 Constitution preserved the One Unit arrangement and the East-West parity structure inherited from 1956, without fundamentally rethinking it.",
+          "lineageForward": "One Unit's failure to hold — East Pakistan's alienation deepened rather than resolved — is a direct throughline to the 1971 secession and, from there, to why 1973 had to invent a wholly different federalism. See the Three Constitutions, One Argument essay."
+        },
+        {
+          "topic": "Fundamental Rights",
+          "title": "Rights initially omitted, then restored under pressure",
+          "description": "Ayub Khan's original 1962 text notably omitted a justiciable Fundamental Rights chapter entirely, reflecting his general skepticism of what he considered Western-style constitutionalism slowing effective governance. Sustained political pressure forced their reinsertion via amendment within about a year.",
+          "lineageForward": "That a Fundamental Rights chapter could be dropped and then had to be fought back in is itself informative — it shows the 1973 Constitution's insistence on justiciable rights from the outset (Article 8's void-for-inconsistency clause) was a direct, deliberate reaction against this specific 1962 experience, not just convention."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "note": "Session 3 of 7. Only cases verified this session via web search are included — 4, not the ~8-10 originally estimated. Same restraint as Session 2's cross-refs: fewer verified entries beats padding with unconfirmed citations. Expanding this list is real work for a later pass.",
+    "schema": "Each case: {id, title, citation, holding, turnedOnArticles:[], citedForwardIn:[]}"
+  },
+  "cases": [
+    {
+      "id": "shehla-zia",
+      "title": "Shehla Zia v. WAPDA",
+      "citation": "PLD 1994 SC 693",
+      "holding": "The Supreme Court read Articles 9 (life) and 14 (dignity) together to hold that the right to life includes the right to a healthy, safe environment — decades before any standalone textual environmental right existed. Decided under the Court's Article 184(3) original jurisdiction.",
+      "turnedOnArticles": ["9", "14"],
+      "citedForwardIn": ["Environmental Law / PIEL cases generally", "Article 9-A, inserted by the 26th Amendment (2024) — codifies what this case had to argue its way to"]
+    },
+    {
+      "id": "benazir-bhutto-1988",
+      "title": "Benazir Bhutto v. Federation of Pakistan",
+      "citation": "PLD 1988 SC 416",
+      "holding": "The Supreme Court held that Article 17(2)'s right to form a political party includes the right to actually operate as one, not merely register — striking down Zia-era restrictions on political party functioning. Chief Justice Haleem's judgment is widely credited as the genesis of public interest litigation in Pakistan, since the Court also loosened standing requirements to allow the petition.",
+      "turnedOnArticles": ["17"],
+      "citedForwardIn": ["Election law / political party registration disputes", "The broader doctrine of relaxed locus standi under Article 184(3)"]
+    },
+    {
+      "id": "khaki-transgender",
+      "title": "Dr. Muhammad Aslam Khaki v. S.S.P. (Operations) Rawalpindi",
+      "citation": "PLD 2013 SC 188",
+      "holding": "Building on a 2009 Supreme Court order, the Court gave legal recognition to transgender persons as a distinct 'third sex' under Pakistani law, grounding the recognition in Article 25's equality guarantee and its explicit prohibition on sex-based discrimination.",
+      "turnedOnArticles": ["25"],
+      "citedForwardIn": ["NADRA gender-registration policy", "Transgender Persons (Protection of Rights) Act, 2018 — later ruled against on separate Islamic-law grounds by the Federal Shariat Court, an unresolved tension worth its own note when Strand 4 (Islamic Provisions) is built"]
+    },
+    {
+      "id": "zab-reference-2024",
+      "title": "Presidential Reference re: Trial of Zulfikar Ali Bhutto",
+      "citation": "Supreme Court opinion, March 2024 (on a 2011 Presidential Reference)",
+      "holding": "The Court unanimously held that Bhutto's 1978-79 trial and appeal did not meet fair trial and due process standards. It explicitly did NOT overturn the conviction or acquit him — the Constitution provides no mechanism to reopen a final conviction after a review petition has been dismissed (Bhutto's was dismissed 24 March 1979), so the death sentence verdict itself stood unaltered. The Court could name the injustice but not undo it.",
+      "turnedOnArticles": ["9", "10A"],
+      "citedForwardIn": ["Article 6 — High Treason Turtles cluster (the practical stakes of what 'unjust' trial findings can and cannot do)", "Judicial Review: Dosso to the Present essay"]
+    }
+  ]
+}
