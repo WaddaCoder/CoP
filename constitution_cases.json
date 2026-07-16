@@ -1,40 +1,206 @@
 {
   "_meta": {
-    "note": "Session 3 of 7. Only cases verified this session via web search are included — 4, not the ~8-10 originally estimated. Same restraint as Session 2's cross-refs: fewer verified entries beats padding with unconfirmed citations. Expanding this list is real work for a later pass.",
-    "schema": "Each case: {id, title, citation, holding, turnedOnArticles:[], citedForwardIn:[]}"
+    "note": "Rebuilt with FIRAC structure (Facts/Issue/Rule/Application/Conclusion) replacing the original single-paragraph 'holding' field, per Khokhar's framework question. FIRAC chosen over IRAC specifically because these are landmark cases where the fact pattern IS the civic memory, not just the doctrine -- dropping Facts loses what makes them 'day-1 LLB knowledge' rather than abstract rule statements. All 8 new cases verified via web search this session: Molvi Tamizuddin Khan (PLD 1955 FC 240), Dosso (PLD 1958 SC 533, now with its own dedicated card), Asma Jilani (PLD 1972 SC 139), Nusrat Bhutto (PLD 1977 SC 657), Nawaz Sharif v. President (PLD 1993 SC 473), Al-Jehad Trust (PLD 1996 SC 324), Zafar Ali Shah v. Musharraf (PLD 2000 SC 869), and the Panama Papers case (PLD 2017 SC 265). 12 cases total, up from 4.",
+    "schema": "Each case: {id, title, citation, facts, issue, rule, application, conclusion, turnedOnArticles:[], citedForwardIn:[]}"
   },
   "cases": [
     {
       "id": "shehla-zia",
       "title": "Shehla Zia v. WAPDA",
       "citation": "PLD 1994 SC 693",
-      "holding": "The Supreme Court read Articles 9 (life) and 14 (dignity) together to hold that the right to life includes the right to a healthy, safe environment — decades before any standalone textual environmental right existed. Decided under the Court's Article 184(3) original jurisdiction.",
-      "turnedOnArticles": ["9", "14"],
-      "citedForwardIn": ["Environmental Law / PIEL cases generally", "Article 9-A, inserted by the 26th Amendment (2024) — codifies what this case had to argue its way to"]
+      "turnedOnArticles": [
+        "9",
+        "14"
+      ],
+      "citedForwardIn": [
+        "Environmental Law / PIEL cases generally",
+        "Article 9-A, inserted by the 26th Amendment (2024) — codifies what this case had to argue its way to"
+      ],
+      "facts": "A WAPDA (electricity utility) plan to route a high-voltage grid station and transmission line through a residential area in Islamabad prompted nearby residents to petition, citing potential health risks from electromagnetic fields.",
+      "issue": "Does the constitutional right to life under Article 9 extend to a right to a safe, healthy environment, when the Constitution's text contained no standalone environmental right?",
+      "rule": "The Court read Article 9 (life) together with Article 14 (dignity), holding that 'life' in a constitutional sense means more than mere physical survival — it includes the amenities and conditions necessary to enjoy life with dignity.",
+      "application": "Applying that reading, unaddressed health risks from a major electrical installation sited near homes were held capable of violating the Article 9/14 right, even absent conclusive scientific proof of harm — the precautionary principle was accepted as sufficient grounding for constitutional concern.",
+      "conclusion": "WAPDA was directed to consider alternative routing and consult further with experts and residents. Decades before Article 9-A existed as standalone text, this case is the doctrinal ancestor of Pakistan's entire environmental-rights jurisprudence."
     },
     {
       "id": "benazir-bhutto-1988",
       "title": "Benazir Bhutto v. Federation of Pakistan",
       "citation": "PLD 1988 SC 416",
-      "holding": "The Supreme Court held that Article 17(2)'s right to form a political party includes the right to actually operate as one, not merely register — striking down Zia-era restrictions on political party functioning. Chief Justice Haleem's judgment is widely credited as the genesis of public interest litigation in Pakistan, since the Court also loosened standing requirements to allow the petition.",
-      "turnedOnArticles": ["17"],
-      "citedForwardIn": ["Election law / political party registration disputes", "The broader doctrine of relaxed locus standi under Article 184(3)"]
+      "turnedOnArticles": [
+        "17"
+      ],
+      "citedForwardIn": [
+        "Election law / political party registration disputes",
+        "The broader doctrine of relaxed locus standi under Article 184(3)"
+      ],
+      "facts": "Zia-era amendments to the Political Parties Act imposed registration and conduct requirements widely seen as designed to restrict opposition parties, including Benazir Bhutto's PPP, from functioning freely.",
+      "issue": "Does Article 17(2)'s guarantee of the right to form a political party include the substantive right to actually operate and function as one, not merely to exist on paper?",
+      "rule": "Fundamental rights must be interpreted purposively — a textual right to 'form' an association is hollow if the State can then regulate that association out of practical existence.",
+      "application": "The restrictive registration and conduct provisions were found to functionally restrict party activity in ways Article 17(2) did not permit, and — significantly — the Court relaxed standing requirements to hear the petition at all.",
+      "conclusion": "Restrictive provisions struck down. Chief Justice Haleem's judgment is widely credited as the genesis of public interest litigation in Pakistan, since the relaxed-standing move mattered as much institutionally as the Article 17 holding itself."
     },
     {
       "id": "khaki-transgender",
       "title": "Dr. Muhammad Aslam Khaki v. S.S.P. (Operations) Rawalpindi",
       "citation": "PLD 2013 SC 188",
-      "holding": "Building on a 2009 Supreme Court order, the Court gave legal recognition to transgender persons as a distinct 'third sex' under Pakistani law, grounding the recognition in Article 25's equality guarantee and its explicit prohibition on sex-based discrimination.",
-      "turnedOnArticles": ["25"],
-      "citedForwardIn": ["NADRA gender-registration policy", "Transgender Persons (Protection of Rights) Act, 2018 — later ruled against on separate Islamic-law grounds by the Federal Shariat Court, an unresolved tension worth its own note when Strand 4 (Islamic Provisions) is built"]
+      "turnedOnArticles": [
+        "25"
+      ],
+      "citedForwardIn": [
+        "NADRA gender-registration policy",
+        "Transgender Persons (Protection of Rights) Act, 2018 — later challenged on Islamic-law grounds"
+      ],
+      "facts": "Building on a 2009 Supreme Court order concerning the legal status of transgender individuals in Pakistan, this petition sought formal recognition and protection under the law.",
+      "issue": "Does Article 25's equality guarantee and its explicit prohibition on sex-based discrimination require legal recognition of a gender identity outside the male/female binary?",
+      "rule": "Article 25(1) and (2) guarantee equality before law and prohibit discrimination on the basis of sex, without textually limiting 'sex' to a binary category.",
+      "application": "The Court read these guarantees as requiring the State to recognize transgender persons as a legally cognizable 'third sex,' entitling them to identity documentation and protection from discrimination on that basis.",
+      "conclusion": "Legal recognition granted, with downstream effect on NADRA registration practice. Later complicated when the Transgender Persons (Protection of Rights) Act, 2018 was challenged on separate Islamic-law grounds before the Federal Shariat Court — an unresolved tension worth its own note once Strand 4 (Islamic Provisions) content matures further."
     },
     {
       "id": "zab-reference-2024",
       "title": "Presidential Reference re: Trial of Zulfikar Ali Bhutto",
       "citation": "Supreme Court opinion, March 2024 (on a 2011 Presidential Reference)",
-      "holding": "The Court unanimously held that Bhutto's 1978-79 trial and appeal did not meet fair trial and due process standards. It explicitly did NOT overturn the conviction or acquit him — the Constitution provides no mechanism to reopen a final conviction after a review petition has been dismissed (Bhutto's was dismissed 24 March 1979), so the death sentence verdict itself stood unaltered. The Court could name the injustice but not undo it.",
-      "turnedOnArticles": ["9", "10A"],
-      "citedForwardIn": ["Article 6 — High Treason Turtles cluster (the practical stakes of what 'unjust' trial findings can and cannot do)", "Judicial Review: Dosso to the Present essay"]
+      "turnedOnArticles": [
+        "9",
+        "10A"
+      ],
+      "citedForwardIn": [
+        "Article 6 — High Treason Turtles cluster",
+        "Judicial Review: Dosso to the Present"
+      ],
+      "facts": "A 2011 Presidential Reference asked the Supreme Court to revisit the fairness of Zulfikar Ali Bhutto's 1978-79 trial and Lahore High Court/Supreme Court appeal process, which had ended in his 1979 execution.",
+      "issue": "Did Bhutto's original trial and appeal meet fair trial and due process standards — and, separately, did the Court have any power to reopen or set aside the final conviction even if it did not?",
+      "rule": "A Presidential Reference under Article 186 allows the Supreme Court to give an advisory opinion on a question of public importance; it does not itself create a mechanism to reopen a criminal conviction that became final after a dismissed review petition.",
+      "application": "The Court examined the original proceedings in detail and found them wanting on fair trial and due process grounds — but confronted directly the absence of any constitutional mechanism to actually set aside a final conviction outside the ordinary appellate process, which had been exhausted decades earlier.",
+      "conclusion": "The Court unanimously held the trial was unjust, while explicitly declining to overturn the conviction or acquit Bhutto — the death sentence verdict stood unaltered. A court naming an injustice it structurally cannot undo — its own kind of regress problem, and the reason this case anchors the Turtles module's name as much as any essay does."
+    },
+    {
+      "id": "tamizuddin-1955",
+      "title": "Federation of Pakistan v. Maulvi Tamizuddin Khan",
+      "citation": "PLD 1955 FC 240",
+      "facts": "Governor-General Ghulam Muhammad dissolved Pakistan's first Constituent Assembly on 24 October 1954, mid-way through its work drafting the country's first constitution. Maulvi Tamizuddin Khan, the Assembly's President, petitioned the Sindh Chief Court, which ruled the dissolution unlawful. The Federation appealed to the Federal Court.",
+      "issue": "Could a law passed by the Constituent Assembly acting as Pakistan's legislature (here, the law giving the Sindh court power to issue the very writ Tamizuddin relied on) take effect without the Governor-General's assent?",
+      "rule": "Under s.6(3) of the Indian Independence Act 1947, the Constituent Assembly, when legislating as the Dominion's ordinary legislature (as opposed to drafting the Constitution itself), required Governor-General assent like any other law.",
+      "application": "Chief Justice Munir held the provision creating the Sindh court's writ jurisdiction had never received that assent — making the jurisdiction it relied on invalid from the start, on a purely technical ground that never reached whether the dissolution itself was proper. Justice Cornelius dissented alone.",
+      "conclusion": "The Sindh ruling was reversed; the dissolution stood. Widely regarded as the first judicial capitulation to executive power in Pakistan's history — the case that opened, in the words of one contemporary critic, 'the Pandora's Box of illegality' that runs through every subsequent coup this app's essays trace.",
+      "turnedOnArticles": [],
+      "citedForwardIn": [
+        "Doctrine of Necessity essay",
+        "Judicial Review: Dosso to the Present"
+      ]
+    },
+    {
+      "id": "dosso-1958",
+      "title": "State v. Dosso",
+      "citation": "PLD 1958 SC 533",
+      "facts": "Decided months after Iskander Mirza's October 1958 coup abrogated the 1956 Constitution. The case reached the Court as an ordinary criminal matter (a tribal-jirga murder conviction) but became the vehicle for the Court to rule on the coup's legal status.",
+      "issue": "Did the laws and legal order of the 1956 Constitution survive its extra-constitutional abrogation?",
+      "rule": "The Court adopted legal theorist Hans Kelsen's concept of 'revolutionary legality': a successful revolution, if generally accepted and effective, creates its own new legal order — an entirely new grundnorm — regardless of the old constitution's own rules for lawful change.",
+      "application": "Since Mirza's takeover had succeeded and was being obeyed, the Court held it need not ask whether the coup was lawful under the old Constitution at all; success itself supplied the new legal foundation.",
+      "conclusion": "The coup was validated. Explicitly repudiated 14 years later in Asma Jilani, but not before shaping how Pakistani courts approached every subsequent extra-constitutional seizure of power.",
+      "turnedOnArticles": [],
+      "citedForwardIn": [
+        "Doctrine of Necessity essay",
+        "Judicial Review: Dosso to the Present"
+      ]
+    },
+    {
+      "id": "asma-jilani-1972",
+      "title": "Asma Jilani v. Government of the Punjab",
+      "citation": "PLD 1972 SC 139",
+      "facts": "Brought after Yahya Khan's government had already collapsed following the 1971 loss of East Pakistan, challenging detentions ordered under his martial law regime.",
+      "issue": "Was Dosso's 'revolutionary legality' reasoning correct — does a successful seizure of power automatically create a new valid legal order?",
+      "rule": "The Court held Kelsen's theory had been misapplied in Dosso — mere success and the absence of immediate resistance is not enough; a change of legal order requires the old order to be genuinely and permanently supplanted, with the change actually accepted by the people as a new constitutional order, not just obeyed out of necessity.",
+      "application": "Applying this corrected standard, the Court found Yahya Khan's martial law was never a legitimate new legal order at all — it was usurpation from the start, dressed in legal language.",
+      "conclusion": "Dosso repudiated; the detentions under Yahya's martial law were declared unlawful. Textbook treatment calls this the moment judicial courage corrected judicial error — worth reading against the honest complication that Yahya's government had already fallen when the Court ruled, at zero political cost to the judges.",
+      "turnedOnArticles": [],
+      "citedForwardIn": [
+        "Doctrine of Necessity essay",
+        "Judicial Review: Dosso to the Present"
+      ]
+    },
+    {
+      "id": "nusrat-bhutto-1977",
+      "title": "Begum Nusrat Bhutto v. Chief of Army Staff",
+      "citation": "PLD 1977 SC 657",
+      "facts": "Filed by Zulfikar Ali Bhutto's wife after General Zia-ul-Haq's July 1977 coup, which deposed and detained her husband's still-sitting civilian government.",
+      "issue": "Could the Court validate an ongoing, currently-empowered military government's seizure of power — the opposite situation from Asma Jilani, where the challenged regime had already fallen?",
+      "rule": "The Court articulated the 'doctrine of necessity': an extra-constitutional intervention may be judicially condoned where it is genuinely necessary to prevent a total breakdown of constitutional government, provided the intervention is limited in scope and duration to what necessity actually requires.",
+      "application": "The Court accepted Zia's own stated justification — that constitutional government had broken down under Bhutto and intervention was unavoidable — and validated the coup, while stating military rule should be as brief as circumstances allowed.",
+      "conclusion": "Coup validated. Zia's martial law lasted eight years, not the brief interval the doctrine's own logic implied — the clearest evidence, cited in nearly every later critique, that the doctrine of necessity functioned as retroactive permission rather than genuine constraint.",
+      "turnedOnArticles": [],
+      "citedForwardIn": [
+        "Doctrine of Necessity essay (full treatment)",
+        "Article 6 cluster",
+        "Zafar Ali Shah v. Musharraf"
+      ]
+    },
+    {
+      "id": "nawaz-sharif-1993",
+      "title": "Muhammad Nawaz Sharif v. President of Pakistan",
+      "citation": "PLD 1993 SC 473",
+      "facts": "President Ghulam Ishaq Khan dissolved the National Assembly and dismissed Prime Minister Nawaz Sharif's government in April 1993 under Article 58(2)(b), citing corruption and instability, and installed a caretaker government.",
+      "issue": "Were the President's grounds for a 58(2)(b) dissolution open to judicial scrutiny, and did dismissing an elected government with a parliamentary majority violate Article 17's political-party guarantee?",
+      "rule": "Article 58(2)(b) permitted dissolution only where constitutional government had genuinely become impossible — not for ordinary governance disputes, incompetence, or corruption allegations alone. Article 17's freedom of association was held to include the substantive right of a party with an Assembly majority to actually form and continue in government.",
+      "application": "The Court, 10-1, found the President's stated grounds did not meet the 'constitutional breakdown' threshold 58(2)(b) required, and that removing an elected majority government for essentially political reasons violated Article 17.",
+      "conclusion": "Dissolution reversed; Sharif's government restored. The clearest instance of a Pakistani court actually enforcing a limit rather than validating a power grab — though 58(2)(b) itself wasn't repealed until 2010, meaning the same presidential power remained available against the next government.",
+      "turnedOnArticles": [
+        "17",
+        "58"
+      ],
+      "citedForwardIn": [
+        "Doctrine of Necessity essay",
+        "18th Amendment/Federalism essay"
+      ]
+    },
+    {
+      "id": "al-jehad-trust-1996",
+      "title": "Al-Jehad Trust v. Federation of Pakistan",
+      "citation": "PLD 1996 SC 324",
+      "facts": "A public-interest petition challenging how superior court judges were being appointed and transferred, specifically what 'consultation' with the Chief Justice under Articles 177 and 193 actually required.",
+      "issue": "Does the President's constitutional duty to 'consult' the Chief Justice on judicial appointments mean a formality the executive can override, or something with real substantive weight?",
+      "rule": "The Court held 'consultation' must be effective, meaningful, purposive, and consensus-oriented — leaning toward requiring genuine agreement rather than mere notice-and-proceed.",
+      "application": "Applied to give the Chief Justice's own seniority-based recommendation for judicial appointments and elevation presumptive weight the executive could not simply override.",
+      "conclusion": "For roughly a decade and a half, gave the judiciary substantial practical control over its own composition — treated as judicial review's high-water mark, until the 18th Amendment's Article 175A, and later the 26th and 27th Amendments, formally rewrote the appointment mechanism in ways that reduced exactly this judicial-majority control.",
+      "turnedOnArticles": [
+        "175A"
+      ],
+      "citedForwardIn": [
+        "Judicial Review: Dosso to the Present",
+        "Judicial Independence essay"
+      ]
+    },
+    {
+      "id": "zafar-ali-shah-2000",
+      "title": "Syed Zafar Ali Shah v. General Pervez Musharraf",
+      "citation": "PLD 2000 SC 869",
+      "facts": "Challenged Musharraf's October 1999 coup against Nawaz Sharif's government and the Provisional Constitutional Order suspending parts of the Constitution — including a PCO oath newly imposed on sitting judges, which the bench hearing this very case had itself taken.",
+      "issue": "Was the coup a valid exercise of extra-constitutional necessity, and could the Court that had sworn the PCO oath meaningfully review the regime that imposed it?",
+      "rule": "Following Nusrat Bhutto's doctrine of necessity, extra-constitutional intervention can be validated where the Constitution provided no solution to the crisis at hand and intervention became genuinely unavoidable — but validation must come with a firm, enforceable time limit.",
+      "application": "The 12-judge bench found the October 1999 breakdown met that threshold and validated the takeover, but — a real constraint absent from Nusrat Bhutto — set a hard three-year deadline for elections (by 12 October 2002), limited Musharraf's amending power to what transition required, and stated the Constitution's basic features (judicial independence, federalism, parliamentary government blended with Islamic provisions) could not be altered even by Parliament.",
+      "conclusion": "Coup validated with real conditions attached — Pakistan's closest brush with an Indian-style 'basic structure' limit, language that reads oddly against the 27th Amendment's 2025 clause explicitly barring courts from reviewing any amendment on any ground (see Article 239). Elections were in fact held within the deadline, making this the one doctrine-of-necessity case where the promised limit was actually honored.",
+      "turnedOnArticles": [
+        "243"
+      ],
+      "citedForwardIn": [
+        "Doctrine of Necessity essay (full treatment)",
+        "Article 239 lineage trail"
+      ]
+    },
+    {
+      "id": "panama-papers-2017",
+      "title": "Imran Ahmed Khan Niazi v. Muhammad Nawaz Sharif (the Panama Papers case)",
+      "citation": "PLD 2017 SC 265 (initial order); final disqualification, 28 July 2017",
+      "facts": "The 2016 Panama Papers leak revealed offshore companies linked to Prime Minister Nawaz Sharif's children. Opposition leader Imran Khan petitioned the Supreme Court under Article 184(3) seeking Sharif's disqualification.",
+      "issue": "Did undisclosed assets connected to the Sharif family meet the threshold for Article 62(1)(f) disqualification — requiring a member of Parliament to be 'sadiq and ameen' (truthful and honest) — and could the Supreme Court make that finding itself under its original jurisdiction rather than a trial court?",
+      "rule": "Article 62(1)(f), inserted during Zia's Islamization amendments, disqualifies a member found dishonest in a court judgment; the Court had separately cautioned in this same case that Article 184(3) is not a substitute for a full trial where facts are genuinely disputed.",
+      "application": "A Joint Investigation Team's report surfaced an undisclosed UAE work permit (Aqama) tied to a directorship in his son's company — an asset omitted from Sharif's official nomination-papers disclosures. The Court treated this specific, largely undisputed fact as sufficient on its own, without needing to resolve the broader, more contested money-laundering allegations.",
+      "conclusion": "Sharif disqualified and removed as Prime Minister, later extended to lifetime disqualification from holding office. The narrowest possible technical ground (an undeclared work permit) produced the most consequential possible outcome — removing a sitting, elected Prime Minister — a pattern critics still cite as evidence Article 62(1)(f)'s vague morality standard functions as a selectively-wielded political weapon rather than a neutral qualification.",
+      "turnedOnArticles": [],
+      "citedForwardIn": [
+        "Judicial Independence essay",
+        "Where the Power Actually Moved cluster"
+      ]
     }
   ]
 }
